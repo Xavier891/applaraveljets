@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@media only screen and (min-width:500px) and (max-width:500px) {
+    .left, .main, .right {
+      width: 50%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+    #updateModal{
+        width: 100%;
+    }
+  }
